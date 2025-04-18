@@ -158,6 +158,7 @@ export const SkillsInfo = [
       image: csprepLogo,
       tags: ["React JS", "Redux", "Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt.js", "Axios", "React Router", "Tailwind CSS", "Vercel", "Render"],
       github: "https://github.com/Abhiscoder/ChiliBlogs",
+live:"https://chili-blogs.vercel.app/login",
     },
     {
       id: 2,
