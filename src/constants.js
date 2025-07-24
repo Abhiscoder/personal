@@ -19,7 +19,7 @@ import postmanLogo from './assets/tech_logo/postman.png';
 // import mcLogo from './assets/tech_logo/mc.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import java from './assets/tech_logo/java.png';
-import TypeScript from './assets/tech_logo/TypeScript.png';
+import typescript from './assets/tech_logo/typescript.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -41,7 +41,7 @@ export const SkillsInfo = [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: TypeScript },
+      { name: 'TypeScript', logo: typescript },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       // { name: 'Framer Motion', logo: materialuiLogo },
