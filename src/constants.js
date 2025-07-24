@@ -19,7 +19,7 @@ import postmanLogo from './assets/tech_logo/postman.png';
 // import mcLogo from './assets/tech_logo/mc.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import java from './assets/tech_logo/java.png';
-import TypeScript from './assets/tech_logo/TypeScript.png';
+import TypeScript from './assets/tech_logo/typescript.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
