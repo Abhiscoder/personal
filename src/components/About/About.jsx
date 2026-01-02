@@ -26,8 +26,8 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Web Developer',
-                // 'Quality Ausurance Tester',
-                'Coder',
+                'Quality Ausurance Tester',
+                // 'Coder',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -40,11 +40,11 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed text-justify">
-            I am a full-stack developer building scalable web applications. Skilled in both front-end and back-end development, I specialize in the MERN stack and other modern technologies to create seamless user experiences and efficient solutions.
+            Detail-oriented Full Stack Web Developer with hands-on experience in the MERN stack (React.js, Node.js, Express.js, and MongoDB). Proven ability to build scalable RESTful APIs and secure web application using JWT and Bcrypt. Strong background in manual testing and software Background in testing.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1x2ouJptAxIZO1gO_CpKW2Dv8UJtPm4Un/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1yUSybvFK-GC75ZVFUq3VR6oSQ7c1Lkce/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -55,7 +55,7 @@ const About = () => {
           >
             DOWNLOAD CV
           </a>
-          
+
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end pl-2 sm:pl-4 md:pl-6 lg:pl-16">
