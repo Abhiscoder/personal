@@ -188,7 +188,7 @@ export const projects = [
     title: "AbhiChat - Real-Time Chat Application",
     description:
       "Developed a full-stack chat application with separate client and server architecture to enable real-time user communication.Implemented backend APIs using Node.js, Express.js, Socet.IO for message handling, user interactions.Built a responsive and interactive frontend using JavaScript to ensure smooth user experience.",
-    image: movierecLogo,
+    image: "",
     tags: ["React.js", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt"],
     github: "https://github.com/Abhiscoder/AbhiChat.git",
   },
