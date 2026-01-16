@@ -23,6 +23,19 @@ import typescript from './assets/tech_logo/typescript.png';
 import jwt from './assets/tech_logo/jwt.png';
 import cloudinary from './assets/tech_logo/cloudinary.png';
 import bcrypt from './assets/tech_logo/bcrypt.jpg';
+import sdlc from './assets/tech_logo/sdlc.png';
+import stlc from './assets/tech_logo/stlc.png';
+import agile from './assets/tech_logo/agile.png';
+import manual from './assets/tech_logo/manual.png';
+import functional from './assets/tech_logo/functional.png';
+import web from './assets/tech_logo/web.png';
+import mobile from './assets/tech_logo/mobile.png';
+import regression from './assets/tech_logo/regression.png';
+import api from './assets/tech_logo/api.png';
+import smoke from './assets/tech_logo/smoke.png';
+import stress from './assets/tech_logo/stress.png';
+import jira from './assets/tech_logo/jira.png';
+import exploratory from './assets/tech_logo/exploratory.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -39,6 +52,23 @@ import abhichat from './assets/work_logo/abhichat.jpg';
 
 
 export const SkillsInfo = [
+  {
+    title: 'Quality Assurance',
+    skills: [
+      { name: 'SDLC', logo: sdlc },
+      { name: 'STLC', logo: stlc },
+      { name: 'Agile', logo: agile },
+      { name: 'Manual', logo: manual },
+      { name: 'Web ', logo: web },
+      { name: 'Mobile', logo: mobile },
+      { name: 'Functional', logo: functional },
+      { name: 'Regression', logo: regression },
+      { name: 'API', logo: api },
+      { name: 'Smoke', logo: smoke },
+      { name: 'Stress', logo: stress },
+      { name: 'Exploratory', logo: exploratory },
+    ]
+  },
   {
     title: 'Frontend',
     skills: [
@@ -67,7 +97,7 @@ export const SkillsInfo = [
   {
     title: 'DataBase',
     skills: [
-      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'SQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'cloudinary', logo: cloudinary },
     ],
@@ -75,8 +105,8 @@ export const SkillsInfo = [
   {
     title: 'Languages',
     skills: [
-      { name: 'C', logo: cLogo },
       { name: 'JAVA', logo: java },
+      { name: 'C', logo: cLogo },
     ],
   },
   {
@@ -84,6 +114,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
+      { name: 'Jira', logo: jira },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
       { name: 'Vercel', logo: vercelLogo },
@@ -95,10 +126,10 @@ export const experiences = [
   {
     id: 0,
     img: webverseLogo,
-    role: "Quality Assurance Engineer",
+    role: "QA Consultant / Software Testing Intern",
     company: "TalextXO",
     date: "Jan 2025 - Apr 2025",
-    desc: "As a Quality Assurance Engineer, I was responsible for ensuring the quality and reliability of software products through rigorous testing and validation processes. I collaborated with cross-functional teams to identify and resolve defects, conducted thorough testing of applications, and implemented automated testing frameworks to enhance efficiency. My role involved creating detailed test plans, executing test cases, and providing valuable feedback to developers to ensure the delivery of high-quality software solutions.",
+    desc: "Designed and executed functional, regression, smoke, UAT test cases for real-world web app. Performed API testing using Postman, validating responses, status code, and data integrity. Logged, tracked, and retested defects using Jira, following the complete defect life cycle. Collaborated with developers, and UI teams in Agile sprint environments.Prepared test execution and defect summary reports and supported release sign-off.",
     skills: [
       "Manual Testing",
       "Test Case Design",
@@ -159,15 +190,24 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Ram Mandir Ayodhya - Booking & Donation Portal",
+    title: "AbhiChat - Real-Time Chat Application",
     description:
-      "Developed a full-stack web application featuring secure user authentication and donation workflow.Implemented JWT and Bcrypt for secure user sessions, reducing unauthorized access risks.Integrated Cloudinary API for efficient image management and Axios for optimized frontend to backend.Designed a responsive UI with Tailwind CSS, resulting in a 25% improvement in mobile load speeds.",
-    image: githubdetLogo,
-    tags: ["React JS", "TailwindCSS", "JavaScript", "Node Js", "Express", "MongoDB", "Cloudinary", "HTML", "CSS", "Git", "GitHub", "Vercel", "Postman"],
-    // github: "",
+      "Developed a full-stack chat application with separate client and server architecture to enable real-time user communication. Implemented backend APIs using Node.js, Express.js, Socet.IO for message handling, user interactions.Built a responsive and interactive frontend using JavaScript to ensure smooth user experience.",
+    image: abhichat,
+    tags: ["React.js", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt"],
+    github: "https://github.com/Abhiscoder/AbhiChat.git",
   },
   {
     id: 1,
+    title: "Ram Mandir Ayodhya - Booking & Donation Portal",
+    description:
+      "Developed a full-stack web application featuring secure user authentication and donation workflow. Implemented JWT and Bcrypt for secure user sessions, reducing unauthorized access risks. Integrated Cloudinary API for efficient image management and Axios for optimized frontend to backend. Designed a responsive UI with Tailwind CSS, resulting in a 25% improvement in mobile load speeds",
+    image: githubdetLogo,
+    tags: ["React JS", "TailwindCSS", "JavaScript", "Node Js", "Express", "MongoDB", "Cloudinary", "HTML", "CSS", "Git", "GitHub", "Vercel", "Postman"],
+    github: "https://github.com/Abhiscoder/RamMandirAyodhyaAppoinment",
+  },
+  {
+    id: 2,
     title: "Cilli Blog -  Blogging Platform",
     description:
       "Architected a full CRUD blogging system allowing users to create, edit, and manage content in real-time.Leveraged MongoDB for flexible data storage and RESTful API endpoints for high-performance data retrieval.Validate application stability through manual testing and deployed via Vercel for 99.9% uptime. The site is designed to provide a smooth experience across all devices.",
@@ -176,7 +216,7 @@ export const projects = [
     github: "https://github.com/Abhiscoder/ChiliBlogs",
   },
   {
-    id: 2,
+    id: 3,
     title: "Wanderlust - Hotel Booking Web Application",
     description:
       "Designed an interactive frontend using Bootstrap and JavaScript to enhance user engagement.Built a robust backend with Node.js and Express.js to handle complex form validations and secure data submission.Managed data persistent using MongoDB, ensuring scalable storage for user booking information. The platform includes image uploads, filters, and map integration to deliver a user-friendly, travel-focused interface.",
@@ -184,13 +224,5 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "Express.js", "MongoDB"],
     github: "https://github.com/Abhiscoder/wonderlust",
   },
-  {
-    id: 3,
-    title: "AbhiChat - Real-Time Chat Application",
-    description:
-      "Developed a full-stack chat application with separate client and server architecture to enable real-time user communication.Implemented backend APIs using Node.js, Express.js, Socet.IO for message handling, user interactions.Built a responsive and interactive frontend using JavaScript to ensure smooth user experience.",
-    image: abhichat,
-    tags: ["React.js", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt"],
-    github: "https://github.com/Abhiscoder/AbhiChat.git",
-  },
+
 ];  

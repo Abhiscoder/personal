@@ -21,11 +21,11 @@ const About = () => {
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-2 text-orange-400 leading-tight">
-            <span className="text-white">I am a </span>
+            <span className="text-white">I am  </span>
             <ReactTypingEffect
               text={[
-                'Fullstack Web Developer',
-                'Quality Ausurance Tester',
+                'a Fullstack Web Developer',
+                'an Quality Ausurance Tester',
                 // 'Coder',
               ]}
               speed={100}
@@ -39,7 +39,8 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed text-justify">
-            Detail-oriented Full Stack Web Developer with hands-on experience in the MERN stack (React.js, Node.js, Express.js, and MongoDB). Proven ability to build scalable RESTful APIs and secure web application using JWT and Bcrypt. Strong background in manual testing and software Background in testing.
+            Software Engineer in Test (SDET) | Full Stack Developer | Java & Selenium | Playwright | MERN Stack | API Testing using Postman | MCA - 2025
+            {/* Detail-oriented Full Stack Web Developer with hands-on experience in the MERN stack (React.js, Node.js, Express.js, and MongoDB). Proven ability to build scalable RESTful APIs and secure web application using JWT and Bcrypt. Strong background in manual testing and software Background in testing. */}
           </p>
           {/* Resume Button */}
           <a

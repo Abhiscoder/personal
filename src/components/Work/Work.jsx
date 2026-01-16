@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { projects } from "../../constants";
 
 const Work = () => {
@@ -10,7 +10,7 @@ const Work = () => {
 
   const handleCloseModal = () => {
     setSelectedProject(null);
-  }; 
+  };
 
   return (
     <section
@@ -102,24 +102,24 @@ const Work = () => {
                     </span>
                   ))}
                 </div>
-                {/* <div className="flex gap-4">
+                <div className="flex gap-4 ">
                   <a
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="w-1/2 bg-gray-800  hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Code
                   </a>
-                  <a
+                  {/* <a
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Live
-                  </a>
-                </div> */}
+                  </a> */}
+                </div>
               </div>
             </div>
           </div>
